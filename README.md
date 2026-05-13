@@ -1,22 +1,4 @@
-"# KRMBot" 
- Architecture du Projet
-
-
- 
-┌─────────────────────────────────────────────────────────┐
-│                  PIPELINE RAG                           │
-│                                                         │
-│  📄 Documents  ──►  ✂️ Chunking  ──►  🔢 Embeddings    │
-│                                            │            │
-│                                            ▼            │
-│  💬 Question  ──►  🔢 Embedding  ──►  🗄️ ChromaDB      │
-│                                            │            │
-│                                            ▼            │
-│                         📋 Top-K Chunks pertinents      │
-│                                            │            │
-│                                            ▼            │
-│                    🧠 LLM + Prompt enrichi              │
-│                                            │            │
-│                                            ▼            │
-│                         💡 Réponse + Sources citées     │
-└─────────────────────────────────────────────────────────┘
+"# KRMBot RAG" 
+🤖 Chatbot intelligent basé sur l'architecture RAG (Retrieval-Augmented Generation) 
+| LangChain · ChromaDB · Streamlit · Python
+— Répond à vos questions à partir de vos documents internes sans hallucinations.
