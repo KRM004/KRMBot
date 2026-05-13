@@ -1,0 +1,19 @@
+# === Web Backend ===
+flask
+flask-cors
+
+# === Texte & Chunking ===
+langchain-text-splitters
+
+# === Embeddings ===
+sentence-transformers
+
+# === LLM (nouveau SDK Gemini) ===
+google-genai
+
+# === Calcul vectoriel ===
+numpy
+scikit-learn
+
+# === Configuration ===
+python-dotenv
