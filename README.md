@@ -1,5 +1,8 @@
 "# KRMBot" 
  Architecture du Projet
+
+
+ 
 ┌─────────────────────────────────────────────────────────┐
 │                  PIPELINE RAG                           │
 │                                                         │
